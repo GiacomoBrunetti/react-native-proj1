@@ -5,15 +5,15 @@ import {
   Text
 } from 'react-native'
 
-export default class SecondScreen extends Component {
+export default class ThirdScreen extends Component {
   static navigationOptions = {
-    tabBarLabel: 'SECOND'
+    tabBarLabel: 'THIRD'
   }
   render () {
   return <View
           style={styles.container}>
             <Text style={styles.text}>
-            This is the Second Screen
+            This is the Third Screen!
             </Text>
           </View>
   }
@@ -22,7 +22,7 @@ export default class SecondScreen extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f24',
+    backgroundColor: '#3f4',
     justifyContent: 'center',
     alignItems: 'center'
   },

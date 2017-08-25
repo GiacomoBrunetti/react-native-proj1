@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 export default class Home extends Component {
   static navigationOptions = {
-    tabBarLabel: 'Home'
+    tabBarLabel: 'HOME'
   }
 
   render() {
@@ -17,7 +17,7 @@ export default class Home extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#356',
+    backgroundColor: '#34f',
     justifyContent: 'center',
     alignItems: 'center'
   },
